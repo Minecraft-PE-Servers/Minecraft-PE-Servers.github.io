@@ -2,7 +2,7 @@ name: Ewerton Nascimento
 description: 
 meta_description: "Ewerton Nascimento"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: true
 
 baseurl: '/'
