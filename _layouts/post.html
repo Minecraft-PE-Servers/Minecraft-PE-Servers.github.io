@@ -17,17 +17,19 @@ archive: true
             </a>
         </header>
         
-        <span class="post-meta">
-        	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-        	{% if post.categories %}
-        		on
-	        	{% for category in page.categories %}
-	        	    {{category}}
-	        	{% endfor %}
-	        {% endif %}
-       	</span>
 
         <h1 class="post-title">{{ page.title }}</h1>
+
+    <span class="post-meta">
+	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+	{% if post.categories %}
+		on
+    	{% for category in page.categories %}
+    	    {{category}}
+    	{% endfor %}
+    {% endif %}
+	</span>
+
 
         <section class="post-content">
             {{content}}
@@ -54,7 +56,8 @@ archive: true
                     	<h4> {{ site.author }} </h4>
                     	<!-- Author Bio -->
                     	<p> 
-                    	  Entusiasta de tecnologias web, baixista e viciado em café. Você pode me conhecer melhor no <a href="https://github.com/ewertonorg">GitHub</a> e no <a href="https://twitter.com/ewertonorg">Twitter</a>
+                    	  iToyToy Limited
+                    	  <a href="https://github.com/zxl777">GitHub</a> and <a href="https://twitter.com/zxl777">Twitter</a>
                     	</p>
                     </article>
                 </section>                
