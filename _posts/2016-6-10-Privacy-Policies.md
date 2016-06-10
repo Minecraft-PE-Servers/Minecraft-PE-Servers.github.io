@@ -3,7 +3,6 @@ layout: apppage
 title:  Privacy Policies
 date:   2016-06-10
 categories: iniciante
-disqus: true
 ---
 
 This Privacy Policy governs the manner in which MineServer collects, uses, maintains and discloses information collected from users (each, a "User") of the MineServer App (“App”).
