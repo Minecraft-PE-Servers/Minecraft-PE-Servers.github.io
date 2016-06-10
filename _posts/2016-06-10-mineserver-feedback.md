@@ -7,7 +7,6 @@ disqus: true
 ---
 
 We are improving this app for the Minecraft PE players.  
-We are developing voice chat. 
-One-Key to create a PE server.   
-These will be free.  
-Welcome your feedback.
+One-Key key create PE servers, voice chat features are in development.These will be free.  
+
+Welcome your questions, comments, suggestions.
