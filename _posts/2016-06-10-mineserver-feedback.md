@@ -1,12 +1,11 @@
 ---
 layout: apppage
 title:  Feedback
-date:   2016-06-10
+date:   2016-06-16
 categories: iniciante
 disqus: true
 ---
+New MineServer for PE 0.15.0 upgrade has been developed. You can download the updated forecast in two days.
 
 Welcome your questions, comments, suggestions.  
-
-We are improving this app for the Minecraft PE players.One-Key to create PE servers, voice chat features are in development.These will be free.  
 
