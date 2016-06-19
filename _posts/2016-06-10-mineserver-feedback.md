@@ -1,6 +1,6 @@
 ---
 layout: apppage
-title:  Feedback
+title:  News
 date:   2016-06-19
 categories: iniciante
 disqus: true
