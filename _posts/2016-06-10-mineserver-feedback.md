@@ -1,11 +1,10 @@
 ---
 layout: apppage
 title:  Feedback
-date:   2016-06-16
+date:   2016-06-19
 categories: iniciante
 disqus: true
 ---
-New MineServer for PE 0.15.0 upgrade has been developed. You can download the updated forecast in two days.
+The new MineServer for PE 0.15.0 has been submitted in June 16.You will be able to update 1.07 in these days.
 
-Welcome your questions, comments, suggestions.  
-
+MineServer 1.06 Just compatible with MCPE 0.14.3
