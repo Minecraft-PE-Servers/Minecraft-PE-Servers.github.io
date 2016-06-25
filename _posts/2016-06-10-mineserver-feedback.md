@@ -1,10 +1,13 @@
 ---
 layout: apppage
-title:  News
-date:   2016-06-19
+title:  App News
+date:   2016-06-25
 categories: iniciante
 disqus: true
 ---
-The new MineServer for PE 0.15.0 has been submitted in June 16.You will be able to update 1.07 in these days.
+1.Current version just working for MCPE 0.14.3.
+2.The update app for MCPE 0.15.0 has been submitted to App Store, This step can take a while (weeks, not months), so please be patient.
+3.OR mailto feedback@itoytoy.com to get beta app for MCPE 0.15.0.
+It Works! 
 
-MineServer 1.06 Just compatible with PE 0.14.3
+
