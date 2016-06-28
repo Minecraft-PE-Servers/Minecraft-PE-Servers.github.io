@@ -4,6 +4,7 @@ title:  How To Play
 date:   2016-06-28
 categories: iniciante
 feedback: false
+question: true
 ---
 **Add the Server IP into MCPE to Play!**
 Step By Step for 1 minute  
@@ -26,4 +27,4 @@ You need to register and login in some server, Otherwise, you can not move.
 
 **How to become a VIP?**  
 MineServer No vip products now.   
-You need to contact the server owner.2
+You need to contact the server owner.

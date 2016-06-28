@@ -4,6 +4,7 @@ title:  App News
 date:   2016-06-27
 categories: iniciante
 feedback: true
+question: false
 ---
 1.Current version just working for MCPE 0.14.3.  
 2.Since iOS rules changed, sorry new app update delayed.  

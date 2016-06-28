@@ -23,10 +23,17 @@ archive: true
         <!-- <footer class="post-footer"> -->
 
             
-            {% if page.disqus %}
+            {% if page.feedback %}
 
             <section class="wenjuan">
 		    <script type="text/javascript" src="http://www.wenjuan.com/iframe/57661673a320fc01df99654d/"></script>
+		    </section>
+			{% endif %}
+
+            {% if page.question %}
+
+            <section class="wenjuan">
+		    <script type="text/javascript" src="http://www.wenjuan.com/iframe/57727663a320fc7b4b64eca2/"></script>
 		    </section>
 			{% endif %}
 
