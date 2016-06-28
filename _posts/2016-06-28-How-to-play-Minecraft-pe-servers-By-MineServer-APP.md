@@ -21,7 +21,7 @@ Because iOS changed the rules, and now can only connect three minutes, rather th
 You can Try 3 minutes, then add the IP to play.
 
 **How to register?**  
-In the chat window, enter “/register password“ to register.  
+1In the chat window, enter “/register password“ to register.  
 You need to register and login in some server, Otherwise, you can not move.  
 
 **How to become a VIP?**  
