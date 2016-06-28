@@ -5,6 +5,9 @@ date:   2016-06-28
 categories: iniciante
 disqus: true
 ---
+Add the Server IP to MCPE to Play!  
+
+Step By Step  
 1.Open Minecraft PE 0.15.0  
 2.Tap Play - Friends  
 3.Tap the Add Server Icon (Right of the ‘Add Friend’).  
