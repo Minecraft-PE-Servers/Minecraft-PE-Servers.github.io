@@ -19,12 +19,11 @@ Step By Step for 1 minute
 
 **Why Play 3 Minutes?**  
 Because iOS changed the rules, and now can only connect three minutes, rather than full-time.  
-You can Try 3 minutes, then add the IP to play.
+You can Try 3 minutes, then add the IP to play full time.
 
 **How to register?**  
 In the chat window, enter “/register password“ to register.  
 You need to register and login in some server, Otherwise, you can not move.  
 
 **How to become a VIP?**  
-MineServer No vip products now.   
 You need to contact the server owner.
