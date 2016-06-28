@@ -3,7 +3,7 @@ layout: apppage
 title:  How To Play
 date:   2016-06-28
 categories: iniciante
-disqus: true
+feedback: false
 ---
 **Add the Server IP into MCPE to Play!**
 Step By Step for 1 minute  
@@ -21,9 +21,9 @@ Because iOS changed the rules, and now can only connect three minutes, rather th
 You can Try 3 minutes, then add the IP to play.
 
 **How to register?**  
-1In the chat window, enter “/register password“ to register.  
+In the chat window, enter “/register password“ to register.  
 You need to register and login in some server, Otherwise, you can not move.  
 
 **How to become a VIP?**  
 MineServer No vip products now.   
-You need to contact the server owner.
+You need to contact the server owner.2
