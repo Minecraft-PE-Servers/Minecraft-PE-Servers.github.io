@@ -5,10 +5,13 @@ date:   2016-06-28
 categories: iniciante
 disqus: true
 ---
-1.Current version just working for MCPE 0.14.3.  
-2.Since iOS rules changed, sorry new app update delayed.  
-We are trying new solutions in the June 27-July 1.  
-3.Mailto feedback@itoytoy.com to get beta app for MCPE 0.15.0.  
-It Works! 
+1.Open Minecraft PE 0.15.0  
+2.Tap Play - Friends  
+3.Tap the Add Server Icon (Located to the right of the ‘Add Friend’).  
+4.Fill in Name : Server Title or Any name.  
+5.Fill in IP/Address : IP shown above.  
+6.Fill in Port : Port shown above.  
+7.Add Server - Done!  
+8.Tap Play - Friends - Servers - Name to Play.  
 
 
