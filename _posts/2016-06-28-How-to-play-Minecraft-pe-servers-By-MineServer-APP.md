@@ -5,7 +5,8 @@ date:   2016-06-28
 categories: iniciante
 disqus: true
 ---
-###### Add the Server IP to MCPE to Play!
+
+###### Add the Server IP into MCPE to Play!
 Step By Step  
 1.Open Minecraft PE 0.15.0  
 2.Tap Play - Friends  
