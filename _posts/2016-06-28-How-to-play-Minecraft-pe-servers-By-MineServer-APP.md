@@ -16,13 +16,14 @@ Step By Step for 1 minute
 7. Tap Add Server - Done!  
 8. Tap Play - Friends - Servers - Name to Play.  
 
-**Why Play 3 Minutes?**
+**Why Play 3 Minutes?**  
 Because iOS changed the rules, and now can only connect three minutes, rather than full-time.  
 You can Try 3 minutes, then add the IP to play.
 
-**How to register?**
+**How to register?**  
 In the chat window, enter “/register password“ to register.  
 You need to register and login in some server, Otherwise, you can not move.  
 
-**How to become a VIP?**
-MineServer No vip products now. You need to contact the server owner.
+**How to become a VIP?**  
+MineServer No vip products now.   
+You need to contact the server owner.
