@@ -1,7 +1,7 @@
 ---
 layout: apppage
 title:  How To Play
-date:   2016-06-28
+date:   2016-06-30
 categories: iniciante
 feedback: false
 question: true
@@ -19,7 +19,6 @@ Step By Step for 1 minute
 8. Tap Play - Friends - Servers - Name to Play.  
 
 **Why Play 3 Minutes?**  
-Because iOS changed the rules, and now can only connect three minutes, rather than full-time.  
 You can Try 3 minutes, then add the IP to play full time.
 
 **How to register?**  
