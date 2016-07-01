@@ -1,7 +1,7 @@
 ---
 layout: apppage
 title:  How To Play
-date:   2016-06-30
+date:   2016-07-02
 categories: iniciante
 feedback: false
 question: true
@@ -21,9 +21,10 @@ Step By Step for 1 minute
 **Why Play 3 Minutes?**  
 You can Try 3 minutes, then add the IP to play full time.
 
-**How to register?**  
-In the chat window, enter “/register password“ to register.  
-You need to register and login in some server, Otherwise, you can not move.  
+**How to register/login/password?**  
+1. You need to register when entering the server.  
+2. When you entering the server, note that registration on-screen help information.  
+3. The common method is to enter "/register password" in MCPE chat window.  
 
 **How to become a VIP?**  
-You need to contact the server owner.
+You need to contact the owner/admin/op of the server.
