@@ -1,7 +1,7 @@
 ---
 layout: apppage
 title:  How To Play
-date:   2016-06-30
+date:   2016-07-2
 categories: iniciante
 feedback: false
 question: true
