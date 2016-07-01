@@ -1,7 +1,7 @@
 ---
 layout: apppage
 title:  How To Play
-date:   2016-07-2
+date:   2016-06-30
 categories: iniciante
 feedback: false
 question: true
@@ -24,7 +24,7 @@ You can Try 3 minutes, then add the IP to play full time.
 **How to register/login/password?**  
 1. You need to register when entering the server.  
 2. When you entering the server, note that registration on-screen help information.  
-3. The common method is to enter "/register password" in MCPE chat window.  
+3. The common method is to enter "/register password" or “password” in MCPE chat window.  
 
 **How to become a VIP?**  
 You need to contact the owner/admin/op of the server.
