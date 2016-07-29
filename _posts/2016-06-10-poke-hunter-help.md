@@ -1,5 +1,5 @@
 ---
-layout: ad
+layout: poke
 title:  
 date:   2016-06-30
 categories: iniciante
@@ -16,3 +16,4 @@ Step By Step for 1 minute
 6. Fill in Port : Port shown above.  
 7. Tap Add Server - Done!  
 8. Tap Play - Friends - Servers - Name to Play.  
+	
