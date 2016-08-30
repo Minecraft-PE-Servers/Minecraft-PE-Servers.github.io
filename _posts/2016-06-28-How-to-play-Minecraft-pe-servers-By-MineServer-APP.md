@@ -32,5 +32,13 @@ You need to contact the owner/admin/op of the server.
 **Why Play 3 Minutes?**  
 You can Try 3 minutes, then add the IP to play full time.
 
-[App link](https://itunes.apple.com/app/id1144129231)
+**Donation**  
+[Paid App link](https://itunes.apple.com/app/id1144129231)  
+- This paid app and the free app will be updated to keep pace.  
+- MineServer team is developing new games and features.  
+- We will first invite enthusiastic users to participate in testing.  
+- After stabilized, open to everyone.
+
+
+
 
