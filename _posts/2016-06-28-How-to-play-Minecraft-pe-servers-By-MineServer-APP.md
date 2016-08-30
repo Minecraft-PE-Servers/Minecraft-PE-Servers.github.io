@@ -32,3 +32,5 @@ You need to contact the owner/admin/op of the server.
 **Why Play 3 Minutes?**  
 You can Try 3 minutes, then add the IP to play full time.
 
+[App link](https://itunes.apple.com/app/id1144129231)
+
