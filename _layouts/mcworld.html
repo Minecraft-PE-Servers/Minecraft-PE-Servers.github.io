@@ -4,12 +4,13 @@ disqus: true
 archive: true 
 ---
 
+
 <main class="content" role="main">
     <article class="post">
         <section class="post-content">
             {{content}}
         </section>
-
+<div id="buttons">
         <table>
             <tr>
                 <th width=33%><a href="https://itunes.apple.com/app/id1144129231" class="myButton">Like</a>
@@ -20,6 +21,19 @@ archive: true
                 </th>
             </tr>
         </table>
-        
+</div>
 </main>
+
+<script type="text/javascript">
+    function GetRequest() 
+    {
+        var url = location.search; //获取url中"?"符后的字串
+        if (url.indexOf("?") != -1) 
+        { //判断是否有参数
+            document.getElementById("buttons").style.display='none'
+        }
+    }
+    GetRequest()
+</script>
+
 
