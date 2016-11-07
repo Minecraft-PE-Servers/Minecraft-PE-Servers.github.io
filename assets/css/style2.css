@@ -1,74 +1,46 @@
-@charset "UTF-8";
-/* CSS Document */
-
-/*
-DEMO 2
-*/
-
-.a_demo_two {
-	background-color:#3bb3e0;
-	padding:10px;
-	position:relative;
-	font-family: 'Open Sans', sans-serif;
-	font-size:12px;
-	text-decoration:none;
-	color:#fff;
-	background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-	background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-	background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
-	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0, rgb(44,160,202)),
-	color-stop(1, rgb(62,184,229))
-	);
-	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
-	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
-	-o-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
-	box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+    background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+    background-color: #007dc1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    height: 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
 
-.a_demo_two::before {
-	background-color:#072239;
-	content:"";
-	display:block;
-	position:absolute;
-	width:100%;
-	height:100%;
-	padding-left:2px;
-	padding-right:2px;
-	padding-bottom:4px;
-	left:-2px;
-	top:5px;
-	z-index:-1;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	-o-border-radius: 6px;
-	border-radius: 6px;
-	-webkit-box-shadow: 0px 1px 0px #fff;
-	-moz-box-shadow: 0px 1px 0px #fff;
-	-o-box-shadow: 0px 1px 0px #fff;
-	box-shadow: 0px 1px 0px #fff;
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+    background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
+    background-color: #0061a7;
 }
 
-.a_demo_two:active {
-	color:#156785;
-	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
-	background:rgb(44,160,202);
-	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
-	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
-	-o-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
-	box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
-	top:7px;
-}
-
-.a_demo_two:active::before {
-	top:-2px;
+.myButton:active {
+    position: relative;
+    top: 1px;
 }
