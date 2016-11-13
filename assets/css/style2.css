@@ -141,6 +141,26 @@
 
 a {
     text-decoration: none;
-    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+}
+
+.btn-glyphicon {
+    padding:8px;
+    background:#ffffff;
+    margin-right:4px;
+}
+
+.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius:50px;
+    margin:10px;
+}
+
+
+.sharebar {
+    position: relative;
+    float: left;
+    padding: 10px 10px;
+    width: 50%;
+    box-sizing: border-box;
 }
 

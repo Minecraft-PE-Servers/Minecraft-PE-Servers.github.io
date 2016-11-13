@@ -10,7 +10,7 @@ archive: true
         <section class="post-content">
             {{content}}
         </section>
-<div id="buttons">
+<!-- <div id="buttons">
         <table>
             <tr>
                 <th width=33%><div onclick='callApp.like()' class="myButton">Like</div>
@@ -52,6 +52,11 @@ archive: true
         </a>
 
     </div>
+</div> -->
+
+<div class="btn-group btn-group-justified">
+      <a href="javascript:callApp.like();" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+      <a href="javascript:callApp.share();" class="btn btn-success" role="button"><span class="glyphicon glyphicon-share"></span> Share</a>
 </div>
 
 </main>
