@@ -11,60 +11,60 @@ archive: true
     <section class="post-content">
 
       <div class="thumbnail">
-        <img src="/assets/images/addserver.png" alt="...">
+        <img src="{{page.HeadImg}}" alt="...">
         <div class="caption text-right">
-          <h5>{{page.title}}</h5>
-          <!-- <p>More about this game More this game, More about this game More about this game More about this game More about this game</p> -->
+          <h5>{{page.Title}}</h5>
           {{content}}
           <a href="javascript:callApp.download();" class="btn btn-default" role="button"><span class="glyphicon glyphicon-cloud-download"></span> Download</a>
         </div>
       </div>
 
+    </section>
+
+    <div id="related">
       <div class="btn-group btn-group-justified page-header">
         <a href="javascript:callApp.like();" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
         <a href="javascript:callApp.share();" class="btn btn-success" role="button"><span class="glyphicon glyphicon-share"></span> Share</a>
       </div>
 
 
+      <h5 id="tables" class="page-header">More related worlds</h5>
 
-    </section>
+      <div class="row show-grid">
 
-    <h5 id="tables" class="page-header">More related worlds</h5>
-
-    <div class="row show-grid">
-
-      <a href="javascript:callApp.postContent('value', 1);" class="col-xs-6">
-        <div class="thumbnail">
-          <img src="/assets/images/addserver.png" alt="...">
-          <div class="caption">
-            <h7>Thumbnail label</h7>
+        <a href="javascript:callApp.postContent('value', {{page.RelatedWorldId1}});" class="col-xs-6">
+          <div class="thumbnail">
+            <img src="{{page.RelatedImg1}}" alt="...">
+            <div class="caption">
+              <h7>{{page.RelatedTitle1}}</h7>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
 
 
-      <a href="javascript:callApp.postContent('value', 2);" class="col-xs-6">
-        <div class="thumbnail">
-          <img src="/assets/images/addserver.png" alt="...">
-          <div class="caption">
-            <h7>Thumbnail label</h7>
+        <a href="javascript:callApp.postContent('value', {{page.RelatedWorldId2}});" class="col-xs-6">
+          <div class="thumbnail">
+            <img src="{{page.RelatedImg2}}" alt="...">
+            <div class="caption">
+              <h7>{{page.RelatedTitle2}}</h7>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
 
+      </div>
     </div>
   </article>
 </main>
-
-
 
 <script type="text/javascript">
 function GetRequest()
 {
   var url = location.search; //获取url中"?"符后的字串
-  if (url.indexOf("?") != -1)
-  { //判断是否有参数
-    document.getElementById("buttons").style.display='none'
+  if (url.indexOf("?") != -1) //有参数
+  {
+  }
+  else {
+      document.getElementById("related").style.display='none'
   }
 }
 GetRequest()
