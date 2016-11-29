@@ -1,0 +1,86 @@
+---
+layout: default
+comments: true
+archive: true
+---
+
+
+<main class="content" role="main">
+  <article class="post">
+    <div class="alert alert-success">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Successfully submitted!</strong> The form is valid.
+    </div>
+
+    <form role="form">
+    <!-- <form role="form"> -->
+
+      <div class="form-group">
+        <textarea class="form-control" rows="5" id="message" placeholder="Please describe your issue or share your thoughts." required minlength="5">Hello World</textarea>
+        <div class="help-block with-errors"></div>
+      </div>
+
+
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" placeholder="Your email" value="sky@itoytoy.com" required>
+        <span class="help-block with-errors"></span>
+      </div>
+
+
+      <div class="form-group  text-right">
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Send</button>
+      </div>
+    </form>
+
+
+    <section class="post-content">
+    </section>
+
+  </article>
+
+</main>
+
+
+<script src='//code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js'></script>
+
+<script>
+  var $form = $('form'), $successMsg = $('.alert');
+$form.validator().on('submit', function (e) {
+  if (!e.isDefaultPrevented()) {
+
+
+      e.preventDefault();
+
+
+      var message = $("#message").val();
+      var email = $("#email").val();
+
+      var sendInfo = {
+           Message: message,
+           Email: email
+       };
+
+      console.log(sendInfo);
+
+      $.ajax({
+            type: 'post',
+            url: 'http://httpbin.org/post',
+            data: JSON.stringify(sendInfo),
+            contentType: "application/json; charset=utf-8",
+
+            beforeSend: function (request)
+            {
+                request.setRequestHeader("Access-Control-Allow-Origin", "*");
+            },
+            crossDomain : true,
+            success: function (response) {
+              // alert('form was submitted')
+              console.log(response);
+              $successMsg.show();
+            }
+          });
+  }
+});
+</script>
