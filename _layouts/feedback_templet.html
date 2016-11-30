@@ -9,8 +9,13 @@ archive: true
   <article class="post">
     <div class="alert alert-success">
       <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-      <strong>Successfully submitted!</strong> The form is valid.
+      <strong>Successfully Sent!</strong> TY!
     </div>
+
+    <div class="waitting alert-success">
+      Sending ......
+    </div>
+
 
     <form role="form">
     <!-- <form role="form"> -->
@@ -46,7 +51,7 @@ archive: true
 <script src='//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js'></script>
 
 <script>
-  var $form = $('form'), $successMsg = $('.alert');
+  var $form = $('form'), $successMsg = $('.alert') ,$waitting = $('.waitting');
 $form.validator().on('submit', function (e) {
   if (!e.isDefaultPrevented()) {
 
@@ -63,21 +68,19 @@ $form.validator().on('submit', function (e) {
        };
 
       console.log(sendInfo);
+      $successMsg.hide();
+      $waitting.show();
 
       $.ajax({
             type: 'post',
-            url: 'http://httpbin.org/post',
+            // url: 'http://httpbin.org/post',
+            // url: 'http://127.0.0.1:8080/feedback',
+            url: 'http://play.itoytoy.com:8080/feedback',
             data: JSON.stringify(sendInfo),
             contentType: "application/json; charset=utf-8",
-
-            beforeSend: function (request)
-            {
-                request.setRequestHeader("Access-Control-Allow-Origin", "*");
-            },
-            crossDomain : true,
             success: function (response) {
-              // alert('form was submitted')
               console.log(response);
+              $waitting.hide();
               $successMsg.show();
             }
           });
