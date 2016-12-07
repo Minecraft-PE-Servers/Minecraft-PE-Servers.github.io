@@ -79,8 +79,8 @@ $form.validator().on('submit', function (e) {
       $.ajax({
             type: 'post',
             // url: 'http://httpbin.org/post',
-            url: 'http://127.0.0.1:8080/feedback',
-            // url: 'http://play.itoytoy.com:8080/feedback',
+            // url: 'http://127.0.0.1:8080/feedback',
+            url: 'http://play.itoytoy.com:8080/feedback',
             data: JSON.stringify(sendInfo),
             contentType: "application/json; charset=utf-8",
             success: function (response) {
