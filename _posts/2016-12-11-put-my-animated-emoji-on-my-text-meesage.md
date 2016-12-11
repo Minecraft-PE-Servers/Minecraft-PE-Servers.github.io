@@ -15,8 +15,8 @@ question: true
 
   
 **Welcome**  
-You've got a 🎁gift of 2,000 📀coins.
-These 📀coins can be used to purchase Emojis.
+You've got a 🎁gift of 2,000 📀coins.  
+These 📀coins can be used to purchase Emojis.  
 In addition, there are many free Emoji, do not need to spend 📀coins.
 
 
