@@ -7,9 +7,13 @@ feedback: false
 question: true
 ---
 
-**Please Open iMessage - Tap on Edit Field - Paste Animated Emojis**   
+**- Please Open iMessage **  
+**- Tap on Edit Field **  
+**- Paste Animated Emojis**  
+  
 ![screenshot](/assets/images/HowToPaste.gif)
 
+  
 **Welcome**  
 You've got a 🎁gift of 2,000 📀coins.
 These 📀coins can be used to purchase Emojis.
