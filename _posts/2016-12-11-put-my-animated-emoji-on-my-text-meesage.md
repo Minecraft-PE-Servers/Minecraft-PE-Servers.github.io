@@ -1,13 +1,13 @@
 ---
-layout: apppage
+layout: info
 title:  Animated Emoji Copied
-date:   2016-11-28
+date:   2016-12-11
 categories: iniciante
 feedback: false
 question: true
 ---
 
-Please Open iMessage - Tap on Edit Field - Paste Animated Emojis   
+**Please Open iMessage - Tap on Edit Field - Paste Animated Emojis**   
 ![screenshot](/assets/images/HowToPaste.gif)
 
 **Welcome**  
