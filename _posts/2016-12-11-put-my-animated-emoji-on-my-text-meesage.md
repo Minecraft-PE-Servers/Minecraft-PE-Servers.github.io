@@ -7,9 +7,9 @@ feedback: false
 question: true
 ---
 
-**- Please Open iMessage **  
-**- Tap on Edit Field **  
-**- Paste Animated Emojis**  
+**- Please Open iMessage   
+- Tap on Edit Field   
+- Paste Animated Emojis**  
   
 ![screenshot](/assets/images/HowToPaste.gif)
 
