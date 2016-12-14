@@ -8,15 +8,15 @@ question: true
 ---
 
 
-- At First ,Download the ZIP file on the PE MAPS website.  
+- At First, Download the ZIP file on the PE MAPS website.  
   
-- When the ZIP download is complete, select Open with McWorld.co APP,  
+- When the ZIP download is complete, select Open with McWorld.co APP.  
   
-- After a few seconds of magic, you can use Minecraft PE to open a new game map.
+- Suddenly, as if by magic, the new world start to open in Minecraft PE.
 
 
 
-[One PE Map demo, Tap here to download and Play](http://mcpehub.com/maps?sort=downloads) 
+[One PE Map demo, Tap here to download and Try](http://mcpehub.com/maps?sort=downloads) 
   
 
 
