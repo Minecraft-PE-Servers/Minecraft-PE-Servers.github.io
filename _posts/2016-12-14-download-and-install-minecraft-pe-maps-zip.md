@@ -8,9 +8,9 @@ question: true
 ---
 
 
-- At First, Download the ZIP file on the PE MAPS website.  
+- At First, Download the Zip archive from the PE MAPS website.  
   
-- When the ZIP download is complete, select Open with McWorld.co APP.  
+- When the ZIP archive is downloaded, Select Open in “McWorld.co”  
   
 - Suddenly, as if by magic, the new world start to open in Minecraft PE.
 
