@@ -19,6 +19,10 @@ question: true
 [One PE Map demo, Tap here to download and Try](http://mcpehub.com/maps?sort=downloads) 
   
 
+By the way, The addons,mcworld files you download can also be opened with McWorld.co  
+These files are automatically saved in McWorld.co  
+You can always call Minecraft PE to open it.
+
 
 
 
