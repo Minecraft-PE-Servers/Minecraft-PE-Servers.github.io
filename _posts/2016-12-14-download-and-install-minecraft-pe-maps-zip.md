@@ -1,7 +1,7 @@
 ---
 layout: info
 title:  Animated Emoji Copied
-date:   2016-12-11
+date:   2016-12-14
 categories: iniciante
 feedback: false
 question: true
