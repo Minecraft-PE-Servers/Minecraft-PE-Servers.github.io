@@ -7,10 +7,12 @@ feedback: false
 question: true
 ---
 
-![screenshot](/assets/images/zip1.webp)  
+![screenshot](/assets/images/zip1.jpg)  
+
+![screenshot](/assets/images/zip2.jpg)  
+
 - At First, Download the Zip archive from the PE MAPS website.  
 
-![screenshot](/assets/images/zip2.webp)  
 - When the ZIP archive is downloaded, Select Open in “McWorld.co”  
   
 - Suddenly, as if by magic, the new world start to open in Minecraft PE.
