@@ -4,9 +4,9 @@ title:  How To Play
 date:   2016-06-30
 categories: iniciante
 feedback: false
-question: true
+question: false
 ---
-**Add the Server IP into MCPE to Play!**
+**Add the Server IP into MCPE to Play!**  
 Step By Step for 1 minute   
 1. Open Minecraft PE 0.16.x  
 2. Tap Play - Friends  
@@ -31,14 +31,6 @@ You need to contact the owner/admin/op of the server.
 
 **Why Play 3 Minutes?**  
 You can Try 3 minutes, then add the IP to play full time.
-
-**Donation**  
-[Paid App link](https://itunes.apple.com/app/id1144129231)  
-- This paid app and the free app will be updated to keep pace.  
-- MineServer team is developing new games and features.  
-- We will first invite enthusiastic users to participate in testing.  
-- After stabilized, open to everyone.
-
 
 
 
