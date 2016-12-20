@@ -18,3 +18,4 @@ question: false
 
 ***Why Play 3 Minutes?***  
 Because APP can only run in the background for 3 minutes.You can Try 3 minutes, then Tap ‘Play Full Time ’ to play full time.
+ 
