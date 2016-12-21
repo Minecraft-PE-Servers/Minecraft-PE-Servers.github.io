@@ -103,9 +103,9 @@ $form.validator().on('submit', function (e) {
 
       e.preventDefault();
 
-      var val = $("input[type=submit][clicked=true]").val();
+      var $btn = $(document.activeElement);
 
-      alert(val);
+      alert(btn);
 
       // var product_name = $("#product_name").val();
       // var message = $("#message").val();
