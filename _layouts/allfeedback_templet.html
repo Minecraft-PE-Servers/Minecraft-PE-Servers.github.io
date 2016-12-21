@@ -23,13 +23,20 @@ archive: true
     <input type="hidden" id="product_name" value="{{page.product_name}}">
 
       <div class="form-group">
-        <!-- <textarea class="form-control" rows="5" id="message" placeholder="Please describe your issue or share your thoughts." required minlength="5">Hello World</textarea> -->
         <textarea class="form-control" id="feedback1"></textarea>
-        <div class="help-block with-errors"></div>
       </div>
 
+      <div class="form-group">
+        <textarea class="form-control" id="feedback2"></textarea>
+      </div>
+
+      <div class="form-group">
+        <textarea class="form-control" id="feedback3"></textarea>
+      </div>
+
+
       <div class="form-group  text-right">
-        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Send</button>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-save"></span> Save</button>
       </div>
     </form>
 
@@ -56,6 +63,25 @@ var simplemde = new SimpleMDE({
 });
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
+  simplemde.value(json.AllFeedback)
+});
+
+
+var simplemde = new SimpleMDE({
+  element: document.getElementById("feedback2"),
+  spellChecker: false,
+});
+
+$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineServer", function(json){
+  simplemde.value(json.AllFeedback)
+});
+
+var simplemde = new SimpleMDE({
+  element: document.getElementById("feedback3"),
+  spellChecker: false,
+});
+
+$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
   simplemde.value(json.AllFeedback)
 });
 
