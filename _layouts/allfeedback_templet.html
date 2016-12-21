@@ -20,7 +20,7 @@ archive: false
     <form role="form">
 
       <div class="form-group  text-left">
-        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> 提交修改1</button>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> 提交修改</button>
       </div>
 
       <div>McWorld.co</div>
@@ -54,6 +54,7 @@ var simplemde1 = new SimpleMDE({
   element: document.getElementById("feedback1"),
   spellChecker: false,
 });
+
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
   simplemde1.value(json.AllFeedback);
