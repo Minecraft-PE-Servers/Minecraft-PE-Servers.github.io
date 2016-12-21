@@ -6,5 +6,6 @@ categories: iniciante
 permalink: /feedback-all
 product_name: EmojiAdded
 Title:  Feedback
+Hide: true
 ---
 FAQ:
