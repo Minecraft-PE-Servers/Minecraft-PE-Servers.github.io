@@ -103,31 +103,35 @@ $form.validator().on('submit', function (e) {
 
       e.preventDefault();
 
-      var product_name = $("#product_name").val();
-      var message = $("#message").val();
-      var email = $("#email").val();
+      var val = $("input[type=submit][clicked=true]").val();
 
-      var sendInfo = {
-           Product: product_name,
-           Message: message,
-           Email: email
-       };
+      alert(val);
 
-      console.log(sendInfo);
-      $successMsg.hide();
-      $waitting.show();
-
-      $.ajax({
-            type: 'post',
-            url: 'http://play.itoytoy.com:8080/allfeedback',
-            data: JSON.stringify(sendInfo),
-            contentType: "application/json; charset=utf-8",
-            success: function (response) {
-              console.log(response);
-              $waitting.hide();
-              $successMsg.show();
-            }
-          });
+      // var product_name = $("#product_name").val();
+      // var message = $("#message").val();
+      // var email = $("#email").val();
+      //
+      // var sendInfo = {
+      //      Product: product_name,
+      //      Message: message,
+      //      Email: email
+      //  };
+      //
+      // console.log(sendInfo);
+      // $successMsg.hide();
+      // $waitting.show();
+      //
+      // $.ajax({
+      //       type: 'post',
+      //       url: 'http://play.itoytoy.com:8080/allfeedback',
+      //       data: JSON.stringify(sendInfo),
+      //       contentType: "application/json; charset=utf-8",
+      //       success: function (response) {
+      //         console.log(response);
+      //         $waitting.hide();
+      //         $successMsg.show();
+      //       }
+      //     });
   }
 });
 </script>
