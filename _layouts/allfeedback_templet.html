@@ -87,6 +87,8 @@ $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", functio
   // simplemde3.togglePreview();
 });
 
+var $successMsg = $('.alert') ,$waitting = $('.waitting');
+
 $("form").submit(function(e){
   // alert("Submitted");
 
@@ -95,6 +97,9 @@ $("form").submit(function(e){
        Message2:simplemde2.value(),
        Message3:simplemde3.value(),
    };
+
+  $successMsg.hide();
+  $waitting.show();
 
   $.ajax({
         type: 'post',
