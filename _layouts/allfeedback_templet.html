@@ -57,32 +57,32 @@ archive: true
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
 <script>
-var simplemde = new SimpleMDE({
+var simplemde1 = new SimpleMDE({
   element: document.getElementById("feedback1"),
   spellChecker: false,
 });
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
-  simplemde.value(json.AllFeedback)
+  simplemde1.value(json.AllFeedback)
 });
 
 
-var simplemde = new SimpleMDE({
+var simplemde2 = new SimpleMDE({
   element: document.getElementById("feedback2"),
   spellChecker: false,
 });
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineServer", function(json){
-  simplemde.value(json.AllFeedback)
+  simplemde2.value(json.AllFeedback)
 });
 
-var simplemde = new SimpleMDE({
+var simplemde3 = new SimpleMDE({
   element: document.getElementById("feedback3"),
   spellChecker: false,
 });
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
-  simplemde.value(json.AllFeedback)
+  simplemde3.value(json.AllFeedback)
 });
 
 
