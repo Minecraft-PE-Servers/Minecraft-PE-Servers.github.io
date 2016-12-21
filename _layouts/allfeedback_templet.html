@@ -49,6 +49,22 @@ archive: false
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
+<style>
+.CodeMirror,
+.CodeMirror-scroll {
+    /*max-height: 300px;*/
+    height:auto;
+}
+
+.CodeMirror-fullscreen.CodeMirror {
+    max-height: none;
+}
+
+.CodeMirror-fullscreen .CodeMirror-scroll {
+    max-height: none;
+}
+</style>
+
 <script>
 var simplemde1 = new SimpleMDE({
   element: document.getElementById("feedback1"),
