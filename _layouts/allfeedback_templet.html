@@ -25,10 +25,12 @@ archive: false
 
       <div>McWorld.co</div>
         <textarea id="feedback1"></textarea>
+      <p></p>
 
       <div>MineServer</div>
         <textarea id="feedback2"></textarea>
-
+        <p></p>
+        
       <div>EmojiAdded</div>
         <textarea id="feedback3"></textarea>
 
@@ -70,6 +72,7 @@ archive: false
 var simplemde1 = new SimpleMDE({
   element: document.getElementById("feedback1"),
   spellChecker: false,
+  status: false,
 });
 
 
@@ -82,6 +85,7 @@ $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(j
 var simplemde2 = new SimpleMDE({
   element: document.getElementById("feedback2"),
   spellChecker: false,
+  status: false,
 });
 
 
@@ -94,6 +98,7 @@ $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineServer", functio
 var simplemde3 = new SimpleMDE({
   element: document.getElementById("feedback3"),
   spellChecker: false,
+  status: false,
 });
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
