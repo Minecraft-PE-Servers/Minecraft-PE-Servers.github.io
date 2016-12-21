@@ -52,7 +52,7 @@ var simplemde1 = new SimpleMDE({
 });
 
 simplemde1.codemirror.on("change", function(){
-    console.log(simplemde.value());
+    console.log(simplemde1.value());
 });
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
