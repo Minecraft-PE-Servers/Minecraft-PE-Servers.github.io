@@ -1,7 +1,7 @@
 ---
 layout: default
-comments: true
-archive: true
+comments: false
+archive: false
 ---
 
 
@@ -22,8 +22,11 @@ archive: true
 
     <input type="hidden" id="product_name" value="{{page.product_name}}">
 
+<div>McWorld.co</div>
         <textarea id="feedback1"></textarea>
+<div>MineServer</div>
         <textarea id="feedback2"></textarea>
+<div>EmojiAdded</div>
         <textarea id="feedback3"></textarea>
 
       <div class="form-group  text-right">
@@ -55,7 +58,7 @@ var simplemde1 = new SimpleMDE({
 
 
 
-$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
+$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
   simplemde1.value(json.AllFeedback);
   simplemde1.togglePreview();
 });
@@ -78,7 +81,7 @@ var simplemde3 = new SimpleMDE({
   spellChecker: false,
 });
 
-$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
+$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
   simplemde3.value(json.AllFeedback);
   simplemde3.togglePreview();
 });
