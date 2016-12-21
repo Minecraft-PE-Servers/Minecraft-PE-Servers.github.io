@@ -109,10 +109,15 @@ $("form").submit(function(e){
           $waitting.hide();
           $successMsg.show();
           alert("提交成功");
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log('jqXHR:');
+            console.log(jqXHR);
+            console.log('textStatus:');
+            console.log(textStatus);
+            console.log('errorThrown:');
+            console.log(errorThrown);
         }
-        failure: function (data, success, failure) {
-                      alert("Error:" + failure);
-                  }  
       });
 });
 
