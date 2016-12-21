@@ -22,18 +22,9 @@ archive: true
 
     <input type="hidden" id="product_name" value="{{page.product_name}}">
 
-<div class="CodeMirror">
         <textarea id="feedback1"></textarea>
-</div>
-
-      <div class="form-group">
         <textarea id="feedback2"></textarea>
-      </div>
-
-      <div class="form-group">
         <textarea id="feedback3"></textarea>
-      </div>
-
 
       <div class="form-group  text-right">
         <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-save"></span> Save</button>
@@ -62,6 +53,8 @@ var simplemde1 = new SimpleMDE({
   spellChecker: false,
 });
 
+simplemde1.togglePreview();
+
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
   simplemde1.value(json.AllFeedback)
 });
@@ -72,6 +65,8 @@ var simplemde2 = new SimpleMDE({
   spellChecker: false,
 });
 
+simplemde2.togglePreview();
+
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineServer", function(json){
   simplemde2.value(json.AllFeedback)
 });
@@ -80,6 +75,8 @@ var simplemde3 = new SimpleMDE({
   element: document.getElementById("feedback3"),
   spellChecker: false,
 });
+
+simplemde3.togglePreview();
 
 $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=MineMap", function(json){
   simplemde3.value(json.AllFeedback)
