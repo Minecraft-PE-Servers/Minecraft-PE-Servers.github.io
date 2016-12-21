@@ -110,6 +110,9 @@ $("form").submit(function(e){
           $successMsg.show();
           alert("提交成功");
         }
+        failure: function (data, success, failure) {
+                      alert("Error:" + failure);
+                  }  
       });
 });
 
