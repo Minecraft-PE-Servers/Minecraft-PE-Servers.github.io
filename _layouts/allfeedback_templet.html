@@ -20,7 +20,7 @@ archive: false
     <form role="form">
 
       <div class="form-group  text-left">
-        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Send</button>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> 提交修改</button>
       </div>
 
       <div>McWorld.co</div>
@@ -87,12 +87,27 @@ $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", functio
   // simplemde3.togglePreview();
 });
 
-
-</script>
-
-<script>
 $("form").submit(function(e){
-  alert("Submitted");
+  // alert("Submitted");
+
+  var sendInfo = {
+       Message1:simplemde1.value(),
+       Message2:simplemde2.value(),
+       Message3:simplemde3.value(),
+   };
+
+  $.ajax({
+        type: 'post',
+        // url: 'http://play.itoytoy.com:8080/allfeedback',
+        url: 'http://127.0.0.1:8080/allfeedback',
+        data: JSON.stringify(sendInfo),
+        contentType: "application/json; charset=utf-8",
+        success: function (response) {
+          console.log(response);
+          $waitting.hide();
+          $successMsg.show();
+        }
+      });
 });
 
 //   var $form = $('form'), $successMsg = $('.alert') ,$waitting = $('.waitting');
