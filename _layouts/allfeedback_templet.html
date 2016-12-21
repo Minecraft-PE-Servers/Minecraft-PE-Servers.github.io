@@ -110,9 +110,14 @@ $("form").submit(function(e){
           $successMsg.show();
           alert("提交成功");
         },
-        error: function(xhr, status, error) {
-            alert(xhr.responseText);
-          }
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log('jqXHR:');
+            console.log(jqXHR);
+            console.log('textStatus:');
+            console.log(textStatus);
+            console.log('errorThrown:');
+            console.log(errorThrown);
+        }
       });
 });
 
