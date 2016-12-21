@@ -24,17 +24,9 @@ archive: true
 
       <div class="form-group">
         <!-- <textarea class="form-control" rows="5" id="message" placeholder="Please describe your issue or share your thoughts." required minlength="5">Hello World</textarea> -->
-        <textarea class="form-control" rows="5" id="message" placeholder="Please describe your issue or share your thoughts." required minlength="5"></textarea>
+        <textarea class="form-control" rows="5" id="feedback1" placeholder="Please describe your issue or share your thoughts." required minlength="5"></textarea>
         <div class="help-block with-errors"></div>
       </div>
-
-
-      <div class="form-group">
-        <!-- <input type="email" class="form-control" id="email" placeholder="Your email" value="sky@itoytoy.com" required> -->
-        <input type="email" class="form-control" id="email" placeholder="Your email" required>
-        <span class="help-block with-errors"></span>
-      </div>
-
 
       <div class="form-group  text-right">
         <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Send</button>
@@ -53,6 +45,17 @@ archive: true
 <script src='//code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js'></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
+<script>
+new SimpleMDE({
+  element: document.getElementById("feedback1"),
+  spellChecker: false,
+});
+
+</script>
 
 <script>
   var $form = $('form'), $successMsg = $('.alert') ,$waitting = $('.waitting');
