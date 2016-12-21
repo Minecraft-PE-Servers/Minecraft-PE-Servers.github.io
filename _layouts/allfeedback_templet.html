@@ -19,6 +19,10 @@ archive: false
 
     <form role="form">
 
+      <div class="form-group  text-left">
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Send</button>
+      </div>
+
       <div>McWorld.co</div>
         <textarea id="feedback1"></textarea>
 
@@ -87,40 +91,44 @@ $.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", functio
 </script>
 
 <script>
-  var $form = $('form'), $successMsg = $('.alert') ,$waitting = $('.waitting');
-$form.validator().on('submit', function (e) {
-  if (!e.isDefaultPrevented()) {
-
-
-      e.preventDefault();
-
-      alert(e.originalEvent.explicitOriginalTarget.value);
-
-      // var product_name = $("#product_name").val();
-      // var message = $("#message").val();
-      // var email = $("#email").val();
-      //
-      // var sendInfo = {
-      //      Product: product_name,
-      //      Message: message,
-      //      Email: email
-      //  };
-      //
-      // console.log(sendInfo);
-      // $successMsg.hide();
-      // $waitting.show();
-      //
-      // $.ajax({
-      //       type: 'post',
-      //       url: 'http://play.itoytoy.com:8080/allfeedback',
-      //       data: JSON.stringify(sendInfo),
-      //       contentType: "application/json; charset=utf-8",
-      //       success: function (response) {
-      //         console.log(response);
-      //         $waitting.hide();
-      //         $successMsg.show();
-      //       }
-      //     });
-  }
+$("form").submit(function(e){
+  alert("Submitted");
 });
+
+//   var $form = $('form'), $successMsg = $('.alert') ,$waitting = $('.waitting');
+// $form.validator().on('submit', function (e) {
+//   if (!e.isDefaultPrevented()) {
+//
+//
+//       e.preventDefault();
+//
+//       alert(e.originalEvent.explicitOriginalTarget.value);
+//
+//       // var product_name = $("#product_name").val();
+//       // var message = $("#message").val();
+//       // var email = $("#email").val();
+//       //
+//       // var sendInfo = {
+//       //      Product: product_name,
+//       //      Message: message,
+//       //      Email: email
+//       //  };
+//       //
+//       // console.log(sendInfo);
+//       // $successMsg.hide();
+//       // $waitting.show();
+//       //
+//       // $.ajax({
+//       //       type: 'post',
+//       //       url: 'http://play.itoytoy.com:8080/allfeedback',
+//       //       data: JSON.stringify(sendInfo),
+//       //       contentType: "application/json; charset=utf-8",
+//       //       success: function (response) {
+//       //         console.log(response);
+//       //         $waitting.hide();
+//       //         $successMsg.show();
+//       //       }
+//       //     });
+//   }
+// });
 </script>
