@@ -97,12 +97,14 @@ $("form").submit(function(e){
   $successMsg.hide();
   $waitting.show();
   console.log(sendInfo)
+  var sendInfoJson = JSON.stringify(sendInfo)
 
   $.ajax({
         type: 'post',
         url: 'http://play.itoytoy.com:8080/allfeedback',
         // url: 'http://127.0.0.1:8080/allfeedback',
-        data: JSON.stringify(sendInfo),
+        data: sendInfoJson,
+        async:false,
         contentType: "application/json; charset=utf-8",
         success: function (response) {
           console.log(response);
