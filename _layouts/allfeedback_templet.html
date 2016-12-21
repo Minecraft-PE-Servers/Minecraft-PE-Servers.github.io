@@ -24,7 +24,7 @@ archive: true
 
       <div class="form-group">
         <!-- <textarea class="form-control" rows="5" id="message" placeholder="Please describe your issue or share your thoughts." required minlength="5">Hello World</textarea> -->
-        <textarea class="form-control" rows="5" id="feedback1" placeholder="Please describe your issue or share your thoughts." required minlength="5"></textarea>
+        <textarea class="form-control" id="feedback1"></textarea>
         <div class="help-block with-errors"></div>
       </div>
 
@@ -50,10 +50,15 @@ archive: true
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
 <script>
-new SimpleMDE({
+var simplemde = new SimpleMDE({
   element: document.getElementById("feedback1"),
   spellChecker: false,
 });
+
+$.getJSON("http://play.itoytoy.com:8080/allfeedback?product=EmojiAdded", function(json){
+  simplemde.value(json.AllFeedback)
+});
+
 
 </script>
 
