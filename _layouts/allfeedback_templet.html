@@ -20,7 +20,7 @@ archive: false
     <form role="form">
 
       <div class="form-group  text-left">
-        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> 提交修改</button>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> 提交修改1</button>
       </div>
 
       <div>McWorld.co</div>
@@ -91,11 +91,12 @@ $("form").submit(function(e){
   var sendInfo = {
        Message1:simplemde1.value(),
        Message2:simplemde2.value(),
-       Message3:simplemde3.value(),
+       Message3:simplemde3.value()
    };
 
   $successMsg.hide();
   $waitting.show();
+  console.log(sendInfo)
 
   $.ajax({
         type: 'post',
