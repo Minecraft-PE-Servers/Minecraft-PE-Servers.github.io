@@ -6,7 +6,8 @@ categories: iniciante
 feedback: false
 question: true
 ---
-**Now you can download the zip maps into Minecraft PE! How to do it?**  
+**Did you install the map from the Featured Page?**  
+**Now You can also install ZIP maps from other web pages! How to do it?**  
 
 ![screenshot](/assets/images/mcworldad.png)  
 
