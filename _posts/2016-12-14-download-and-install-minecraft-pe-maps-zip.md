@@ -6,9 +6,10 @@ categories: iniciante
 feedback: false
 question: true
 ---
-** Do you know now you can install the zip maps into Minecraft PE?
-** And you can download the zip maps from everywhere.  
-** Follow me 
+**Do you know now you can install the zip maps into Minecraft PE?**
+**And you can download the zip maps from everywhere.**
+**Follow me**  
+
 
 ![screenshot](/assets/images/mcworldad.png)  
 
