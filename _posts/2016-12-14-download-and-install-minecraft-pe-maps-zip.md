@@ -6,7 +6,7 @@ categories: iniciante
 feedback: false
 question: true
 ---
-**Now you can download the zip maps into Minecraft PE! How ?**  
+**Now you can download the zip maps into Minecraft PE! How to do it?**  
 
 ![screenshot](/assets/images/mcworldad.png)  
 
