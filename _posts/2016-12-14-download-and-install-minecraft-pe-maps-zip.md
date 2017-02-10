@@ -6,13 +6,13 @@ categories: iniciante
 feedback: false
 question: true
 ---
-[<u>**How to upload and share the Map ?**</u>](#3)
+[**<u>How to upload and share the Map ?</u>**](#3)
 
-[<u>**How to install ZIP maps from More sites ?**</u>](#1)
+[**How to install ZIP maps from More sites ?**](#1)
 
-[<u>**More PE MAPS Download Sites**</u>](#2)
+[**More PE MAPS Download Sites**](#2)
 
-[<u>**How to get my maps from my MCPE ?**</u>](#3)
+[**How to get my maps from my MCPE ?**](#3)
 
 <span id = "1"></span>  
 **How to install ZIP maps from More sites?**   
@@ -41,23 +41,42 @@ Please note that these files can also be downloaded - "addons"，".mcworld", ".z
 1. By the above method, you got the map file from the site / app / iCloud in Mcworld.co  
 2. Mcworld.co - Tap Upload Map - Open the maps list.  
 3. Tap one map - Copy to Minecraft & Try & take a screenshot - Submit - Done!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
