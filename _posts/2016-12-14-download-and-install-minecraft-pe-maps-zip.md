@@ -6,7 +6,7 @@ categories: iniciante
 feedback: false
 question: true
 ---
-[**<u>How to upload and share the Map ?</u>**](#3)
+[**How to upload and share the Map ?**](#0)
 
 [**How to install ZIP maps from More sites ?**](#1)
 
@@ -14,6 +14,7 @@ question: true
 
 [**How to get my maps from my MCPE ?**](#3)
 
+----
 <span id = "1"></span>  
 **How to install ZIP maps from More sites?**   
 1. Download the Zip archive from the PE MAPS sites or apps.   
@@ -62,6 +63,12 @@ Please note that these files can also be downloaded - "addons"，".mcworld", ".z
   
   
 
+.  
+.  
+.  
+.  
+.  
+.  
 .  
 .  
 .  
