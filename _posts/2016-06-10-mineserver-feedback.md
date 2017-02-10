@@ -6,16 +6,9 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***Why I can't move when I spawn in***  
-1. You need to register when entering the server.  
-2. When you entering the server, note that registration on-screen help information.  
-3. The common method is to enter "/register password" or “password” in MCPE chat window.  
-
-***Why server always says disconnected from server.***  
-1. Because this server has a large delay.  
-2. Delay requires less than 200ms.  
-3. Lag smaller and flatter is better.  
-
-***Why Play 3 Minutes?***  
-Because APP can only run in the background for 3 minutes.You can Try 3 minutes, then Tap ‘Play Full Time ’ to play full time.
- 
+***2017年App新作分享 - Mcworld.co [[安装]](http://mcworld.co)***  
+1. Mcworld.co是一款App，里边有上万个好玩的《我的世界》地图!  
+2. 免费下载地图，一键安装地图到《我的世界》中。  
+3. 用Safari在相关网站下载ZIP地图，一键安装。  
+4. 你可以上传分享地图，获得各种点赞和成就。  
+**[下载安装Mcworld.co（免费）](http://mcworld.co)**
