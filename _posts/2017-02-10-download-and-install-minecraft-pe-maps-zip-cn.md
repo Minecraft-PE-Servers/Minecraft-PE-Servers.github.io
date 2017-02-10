@@ -6,15 +6,15 @@ categories: iniciante
 feedback: false
 question: true
 ---
-> [<u>跳转到英语页面</u>](http://minecraft-pe-servers.itoytoy.com/download-and-install-minecraft-pe-maps-zip)。
+[<u>[English]</u>](http://minecraft-pe-servers.itoytoy.com/download-and-install-minecraft-pe-maps-zip)。
  
-[**怎么上载和分享《我的世界》地图 ?**](#0)
+>[**怎么上载和分享《我的世界》地图 ?**](#0)
 
-[**怎么从网站下载安装更多ZIP地图 ?**](#1)
+>[**怎么从网站下载安装更多ZIP地图 ?**](#1)
 
-[**更多《我的世界》地图下载网站**](#2)
+>[**更多《我的世界》地图下载网站**](#2)
 
-[**怎么上载炫耀我自己的地图 ?**](#3)
+>[**怎么上载炫耀我自己的地图 ?**](#3)
 
 ----
 <span id = "1"></span>  
