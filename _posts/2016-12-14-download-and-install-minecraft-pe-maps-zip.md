@@ -6,26 +6,24 @@ categories: iniciante
 feedback: false
 question: true
 ---
-**Did you install the map from the Featured Page?**  
-**Now You can also install ZIP maps from other web pages! How to do it?**  
-
-![screenshot](/assets/images/mcworldad.png)  
-
+***How to install ZIP maps from More sites?***   
+1. Download the Zip archive from the PE MAPS sites or apps. [<u>Like this</u>](http://mcpehub.com/maps?sort=downloads)    
 ![screenshot](/assets/images/zip1.jpg)  
 
-![screenshot](/assets/images/zip2.jpg)  
+2. When the ZIP archive is downloaded, Select Open in “McWorld.co”    
+![screenshot](/assets/images/zip2.jpg)
 
-- At First, Download the Zip archive from the PE MAPS website.  
+3. Suddenly, as if by magic, the new world start to open in Minecraft PE.
 
-- When the ZIP archive is downloaded, Select Open in “McWorld.co”  
+***More PE MAPS Download Sites***  
+- [Mcpehub.com](http://mcpehub.com/maps?sort=downloads)  
+- [Mcpedl.com](http://mcpedl.com/tag/mcworld/)  
+- [Minecraftmaps.com](http://www.minecraftmaps.com/pocket-edition-maps)  
+- [Google Minecraft PE Maps](https://www.google.com/webhp?ion=1&espv=2&ie=UTF-8#q=minecraft%20pe%20map)  
 
-- Suddenly, as if by magic, the new world start to open in Minecraft PE.
+Please note that these files can also be downloaded - "addons"，"mcworld", "zip" files.
 
-
-
-[<u>One PE Map demo, Tap here to download and Try</u>](http://mcpehub.com/maps?sort=downloads)
-
-
-By the way, The addons,mcworld files you download can also be opened with McWorld.co  
-These files are automatically saved in McWorld.co  
-You can always call Minecraft PE to open it.
+***How to upload my maps saved in MCPE***  
+1. On PC/Mac, iFunBox - Copy the map from MCPE to PC/MAC Folder.  
+2. On PC/Mac, Zip the Folder then Copy the zip file to AirDrop.  
+3. On iPhone/iPad, AirDrop got the zip file - Open in Mcworld.co - Upload&Share - Done!
