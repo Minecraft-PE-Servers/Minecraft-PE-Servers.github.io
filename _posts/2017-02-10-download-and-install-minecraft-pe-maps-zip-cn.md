@@ -1,6 +1,6 @@
 ---
 layout: info
-title:  Mcworld.co 教程
+title:  Help
 date:   2017-02-10
 categories: iniciante
 feedback: false
