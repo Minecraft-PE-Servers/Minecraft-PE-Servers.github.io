@@ -6,13 +6,15 @@ categories: iniciante
 feedback: false
 question: true
 ---
-[**How to upload and share the Map ?**](#0)
+[<u>[简体中文]</u>](http://minecraft-pe-servers.itoytoy.com/download-and-install-minecraft-pe-maps-zip-cn) 
 
-[**How to install ZIP maps from More sites ?**](#1)
+> [**How to upload and share the Map ?**](#0)
 
-[**More PE MAPS Download Sites**](#2)
+> [**How to install ZIP maps from More sites ?**](#1)
 
-[**How to get my maps from my MCPE ?**](#3)
+> [**More PE MAPS Download Sites**](#2)
+
+> [**How to get my maps from my MCPE ?**](#3)
 
 ----
 <span id = "1"></span>  
