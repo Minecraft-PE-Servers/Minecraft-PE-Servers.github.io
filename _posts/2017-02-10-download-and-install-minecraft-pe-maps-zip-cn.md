@@ -6,6 +6,8 @@ categories: iniciante
 feedback: false
 question: true
 ---
+> [<u>跳转到英语页面</u>](http://minecraft-pe-servers.itoytoy.com/download-and-install-minecraft-pe-maps-zip)。
+ 
 [**怎么上载和分享《我的世界》地图 ?**](#0)
 
 [**怎么从网站下载安装更多ZIP地图 ?**](#1)
