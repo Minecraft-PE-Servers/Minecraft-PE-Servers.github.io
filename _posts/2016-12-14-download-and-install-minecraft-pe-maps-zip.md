@@ -39,7 +39,7 @@ Please note that these files can also be downloaded - "addons"，".mcworld", ".z
 
 <span id = "0"></span>  
 **How to upload and share the Map ?**  
-1. By the above method, you got the map file from the site / app / iCloud in Mcworld.co  
+1. By the above method, you copy the map file from the site / app / iCloud to Mcworld.co  
 2. Mcworld.co - Tap Upload Map - Open the maps list.  
 3. Tap one map - Copy to Minecraft & Try & take a screenshot - Submit - Done!
   
