@@ -22,5 +22,5 @@ Please note that these files can also be downloaded - "addons"，".mcworld", ".z
 
 ***How to upload my maps from my MCPE***  
 1. On PC/Mac, iFunBox - Copy the map from MCPE to PC/MAC Folder.  
-2. On PC/Mac, Zip the Folder then Copy the zip file to AirDrop.  
-3. On iPhone/iPad, AirDrop got the zip file - Open in Mcworld.co - Upload&Share - Done!
+2. On PC/Mac, Zip the Folder then Copy the zip file to AirDrop/iCloud.  
+3. On iPhone/iPad, AirDrop/iCloud got the zip file - Open in Mcworld.co - Upload&Share - Done!
