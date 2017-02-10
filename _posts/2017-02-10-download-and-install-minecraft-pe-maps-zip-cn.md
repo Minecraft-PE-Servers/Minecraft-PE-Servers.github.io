@@ -6,7 +6,7 @@ categories: iniciante
 feedback: false
 question: true
 ---
-[**怎么上载和分享公众地图 ?**](#0)
+[**怎么上载和分享《我的世界》地图 ?**](#0)
 
 [**怎么从网站下载安装更多ZIP地图 ?**](#1)
 
@@ -16,7 +16,7 @@ question: true
 
 ----
 <span id = "1"></span>  
-**怎么上载和分享公众地图 ?**   
+**怎么从网站下载安装更多ZIP地图 ?**   
 1. 从地图下载网站或APP下载ZIP格式的地图文件.   
 [![screenshot](/assets/images/zip1.jpg)](http://mcpehub.com/maps?sort=downloads)  
 2. 当ZIP文件下载完成, 选择在“McWorld.co”中打开    
@@ -38,7 +38,7 @@ question: true
 3. 通过iPhone/iPad的AirDrop/iCloud获得了这个ZIP文件，点击分享，在“Mcworld.co”中打开，上载并分享，完成!
 
 <span id = "0"></span>  
-**怎么上载和分享公众地图 ?**  
+**怎么上载和分享《我的世界》地图 ?**  
 1. 通过上面介绍的方法，你将获取到地图文件拷贝到了Mcworld.co中。  
 2. 打开Mcworld.co App，点击上载地图，打开地图列表。  
 3. 选择一个地图，拷贝到《我的世界》，试玩，截图，然后完善信息，提交，完成！
