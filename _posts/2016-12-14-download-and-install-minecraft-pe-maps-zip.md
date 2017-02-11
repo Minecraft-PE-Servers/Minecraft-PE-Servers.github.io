@@ -12,7 +12,7 @@ question: true
 
 > [**How to install ZIP maps from More sites ?**](#1)
 
-> [**More PE MAPS Download Sites**](#2)
+> [**More PE MAPS Zip Download Sites**](#2)
 
 > [**How to get my maps from my MCPE ?**](#3)
 
@@ -26,7 +26,7 @@ question: true
 3. Suddenly, as if by magic, the new world start to open in Minecraft PE.
 
 <span id = "2"></span>  
-**More PE MAPS Download Sites**  
+**More PE MAPS Zip Download Sites**  
 - [<u>Mcpehub.com</u>](http://mcpehub.com/maps?sort=downloads)  
 - [<u>Mcpedl.com</u>](http://mcpedl.com/tag/mcworld/)  
 - [<u>Minecraftmaps.com</u>](http://www.minecraftmaps.com/pocket-edition-maps)  
