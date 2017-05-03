@@ -15,26 +15,28 @@ archive: true
         <div class="caption text-right">
           <h5>{{page.Title}}</h5>
           {{content}}
-          <a href="javascript:callApp.download();" class="btn btn-default" role="button" id="appdownload"><span class="glyphicon glyphicon-cloud-download"></span> Download</a>
+          <a href="javascript:download('{{page.download}}');" class="btn btn-default" role="button" id="appdownload"><span class="glyphicon glyphicon-cloud-download"></span> Download</a>
           <a href="{{page.download}}" class="btn btn-default" role="button" id="webdownload"><span class="glyphicon glyphicon-cloud-download"></span> Download</a>
-          <!-- <a href="https://z4yq2.app.goo.gl/?link=http://minecraft-pe-servers.itoytoy.com/Demo1&isi=889449952&ibi=com.itoytoy.mcworld" class="btn btn-default" role="button" id="webdownload"><span class="glyphicon glyphicon-cloud-download"></span> Download</a> -->
         </div>
       </div>
 
     </section>
 
+
+
     <div id="related">
       <div class="btn-group btn-group-justified page-header">
-        <a href="javascript:callApp.like();" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
-        <a href="javascript:callApp.share();" class="btn btn-success" role="button"><span class="glyphicon glyphicon-share"></span> Share</a>
+        <a href="javascript:like('{{page.download}}');" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+        <a href="javascript:share('{{page.download}}');" class="btn btn-success" role="button"><span class="glyphicon glyphicon-share"></span> Recommend</a>
       </div>
 
 
       <h5 id="tables" class="page-header">You may also like</h5>
 
+
       <div class="row show-grid">
 
-        <a href="javascript:callApp.postContent('value', {{page.RelatedWorldId1}});" class="col-xs-6">
+        <a href="javascript:jump2map({{page.RelatedWorldId1}});" class="col-xs-6">
           <div class="thumbnail">
             <img src="{{page.RelatedImg1}}" alt="...">
             <div class="caption">
@@ -44,7 +46,7 @@ archive: true
         </a>
 
 
-        <a href="javascript:callApp.postContent('value', {{page.RelatedWorldId2}});" class="col-xs-6">
+        <a href="javascript:jump2map({{page.RelatedWorldId2}});" class="col-xs-6">
           <div class="thumbnail">
             <img src="{{page.RelatedImg2}}" alt="...">
             <div class="caption">
@@ -80,4 +82,63 @@ function GetRequest()
   }
 }
 GetRequest()
+
+
+function download(mapid) {
+  if (typeof(callApp) != "undefined")
+  {
+    callApp.download()
+  }
+  
+  try
+  {
+    window.webkit.messageHandlers.download.postMessage(mapid)  
+  }
+  catch(e){}
+}
+
+function share(mapid) {
+  if (typeof(callApp) != "undefined")
+  {
+    callApp.share()
+  }
+  
+  try
+  {
+    window.webkit.messageHandlers.share.postMessage(mapid)  
+  }
+  catch(e){}
+}
+
+function like(mapid) {
+  if (typeof(callApp) != "undefined")
+  {
+    callApp.like()
+  }
+  
+  try
+  {
+    window.webkit.messageHandlers.like.postMessage(mapid)  
+  }
+  catch(e){}
+}
+
+//callApp.postContent('value', {{page.RelatedWorldId1}})
+//jump2map({{page.RelatedWorldId1}})
+function jump2map(mapid) {
+  if (typeof(callApp) != "undefined")
+  {
+    callApp.postContent('value', mapid)
+  }
+  
+  try
+  {
+    window.webkit.messageHandlers.jump2map.postMessage(mapid)  
+  }
+  catch(e){}
+}
+
+
+
+
 </script>
