@@ -16,5 +16,6 @@ Features
 - Server Manager in app, you can install plugins, restart the server, check the chat history,etc
 - Back up the server every hour to keep the map safe.
 
-If you want to build a stable and secure minecraft server, Email to sky@itoytoy.com
-We will select some users to build the server for free.
+If you want to build a stable and secure minecraft server, Email to sky@itoytoy.com   
+We will invite some users to create the server for free.
+
