@@ -9,7 +9,8 @@ question: false
 ***Test invitation: Make Minecraft PE Server for yourself.***  
 Now we have a new app, you can create your own Minecraft PE server.
 This app has the following features:
-- 24 hours mcpe server, 2G RAM, 20+ players and plugins
+- Play with your friends in this 24 hours mcpe server
+- 2G RAM, 100+ players and 100+ plugins/mods
 - One tap to install the plugins/mods from github and poggit
 - Server Manager in app, you can install plugins, restart the server, view chat history,etc
 - Back up the server every hour to keep the map safe.
