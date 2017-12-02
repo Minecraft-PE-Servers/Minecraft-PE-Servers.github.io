@@ -6,8 +6,13 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***2017年App新作推荐 👍🏻***  
-1. Mcworld.co这款App里有上万个好玩的地图，支持《我的世界》一键安装。  
-2. 从全球网站下载的ZIP地图，也可以一键安装。  
-3. 可上传地图，自动审核立即上线，赢得各种点赞成就。  
-***[Mcworld.co - 限时免费App - 马上安装 ➡︎](http://mcworld.co)***
+***Test invitation: Make Minecraft PE Server for yourself.***  
+Now we have a new app, you can create your own Minecraft PE server.
+This app has the following features:
+- 24 hours mcpe server, 2G RAM, 20+ players and plugins
+- One tap to install the plugins/mods from github and poggit
+- Server Manager in app, you can install plugins, restart the server, view chat history,etc
+- Back up the server every hour to keep the map safe.
+
+If you want to create your own MCPE server, please email to sky@itoytoy.com , thanks.
+We will select a few users to build the mcpe server for free.
