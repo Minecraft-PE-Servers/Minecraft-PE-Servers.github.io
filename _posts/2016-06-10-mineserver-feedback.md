@@ -7,8 +7,9 @@ feedback: true
 question: false
 ---
 ***Test invitation: Make Minecraft PE Server for yourself.***  
-Now we have a new app, let you create your own Minecraft PE servers.
-Features
+Now we have a new app, let you create your own Minecraft PE servers.   
+
+Features   
 - Play Minecraft PE with your friends in the server
 - The Server allways online, No lags
 - 2G RAM, 100+ players and 100+ plugins/mods
