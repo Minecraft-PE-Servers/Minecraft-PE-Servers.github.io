@@ -24,7 +24,7 @@ You will be able to create your own server for free.
 
 Interested? Please contact sky@itoytoy.com
 
-MineServer Team
+MineServer Team   
 2017-12-3
 
 
