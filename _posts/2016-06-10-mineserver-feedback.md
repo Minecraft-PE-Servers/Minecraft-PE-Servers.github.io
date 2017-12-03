@@ -6,20 +6,25 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***Beta invitation: Make Minecraft PE Server for yourself.***  
-Do you want to play Minecraft PE with your friends in your own server?   
-Now we have a new app, let you create your own Minecraft PE servers. 
+***How To Make A Minecraft Server For Free?***   
+
+Now we make a new app for you to make the server work!  
 
 Features   
 - WorldEdit,Shop,Hub,Lands,Worlds,BanItem,All plugins are FREE.
 - One tap to install/uninstall the plugins from github and poggit.
-- Multiplayer Server always online, No lags.
+- Multiplayer Server for Minecraft PE 1.2.5, Always online, No lags.
 - We do not deliberately limit the players and plugins. Only limited by the server's hardware resources.
 - You can install plugins, restart the server, check the chat history in your iPhone.
 - Automatic backup every hour to keep the map and data safe.
 - Find issues, submit issues, solve issues by Issues Feature.
 
-Email: sky@itoytoy.com   
+We are looking for users to test new features together.  
+You will be able to create your own server for free.  
+
+Interested? Please contact sky@itoytoy.com
+
 MineServer Team
+2017-12-3
 
 
