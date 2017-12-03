@@ -19,7 +19,7 @@ Features
 - Automatic backup every hour to keep the map and data safe.
 - Find issues, submit issues, solve issues by Issues Feature
 
-Email: sky@itoytoy.com
+Email: sky@itoytoy.com   
 MineServer Team
 
 
