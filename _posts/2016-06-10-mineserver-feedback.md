@@ -17,7 +17,7 @@ Features
 - We do not deliberately limit the players and plugins. Only limited by the server's hardware resources.
 - You can install plugins, restart the server, check the chat history in your iPhone.
 - Automatic backup every hour to keep the map and data safe.
-- Find issues, submit issues, solve issues by Issues Feature
+- Find issues, submit issues, solve issues by Issues Feature.
 
 Email: sky@itoytoy.com   
 MineServer Team
