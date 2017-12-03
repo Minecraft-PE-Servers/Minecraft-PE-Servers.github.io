@@ -7,7 +7,7 @@ feedback: true
 question: false
 ---
 ***Beta invitation: Make Minecraft PE Server for yourself.***  
-Do you want to play Minecraft PE with your friends in your own server?
+Do you want to play Minecraft PE with your friends in your own server?   
 Now we have a new app, let you create your own Minecraft PE servers. 
 
 Features   
