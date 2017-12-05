@@ -6,14 +6,15 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***How To Make A Minecraft Server For Free?***   
+***How To Make A Plug-based Minecraft Server For Free?***   
 
-Now we make a new app for you to make the server work!  
+Now we make a new app for you to make the server and the plugins work!  
 
-Features   
+Features  
+- Plugin Support, add awesome features for Minecraft PE. 
 - WorldEdit,Shop,Hub,Lands,Worlds,BanItem,All plugins are FREE.
 - One tap to install/uninstall the plugins from github and poggit.
-- Multiplayer Server for Minecraft PE 1.2.5, Always online, No lags.
+- Multiplayer Server for Minecraft PE 1.2.5, Always online, High Performance.
 - We do not deliberately limit the players and plugins. Only limited by the server's hardware resources.
 - You can install plugins, restart the server, check the chat history in your iPhone.
 - Automatic backup every hour to keep the map and data safe.
@@ -25,6 +26,6 @@ You will be able to create your own server for free.
 Interested? Please contact sky@itoytoy.com
 
 MineServer Team   
-2017-12-3
+2017-12-5
 
 
