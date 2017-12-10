@@ -11,9 +11,10 @@ question: false
 We are developing a cool server app for you. 
 
 Cool Features   
+- Creating a server is super easy. Just 1 minute.
 - Many plugins: WorldEdit,Shop,Lands,MultiWorlds,BanItem,...
 - More Commands,More Maps,More Plugins,More MiniGames.
-- One tap to install the plugins from github and poggit.
+- One tap to install all the plugins from github and poggit.
 - Build your world online and automatically back up every hour.
 - 30+ players and 100+ plugins.   
 
