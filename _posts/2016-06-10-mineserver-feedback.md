@@ -6,12 +6,10 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***Do you want to Make A Minecraft PE Server For Free?***    
+***Make A Minecraft PE Server for yourself and your friends?***    
 
-We are developing a cool server app for you. 
-
-Cool Features   
-- Creating a server is super easy. Just 1 minute.
+New Features   
+- Creating a server is super easy. Just take 1 minute.
 - Many plugins: WorldEdit,Shop,Lands,MultiWorlds,BanItem,...
 - More Commands,More Maps,More Plugins,More MiniGames.
 - One tap to install all the plugins from github and poggit.
