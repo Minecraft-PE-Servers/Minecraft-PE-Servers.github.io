@@ -6,17 +6,19 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***How To Make A Minecraft Server For Free?***   
+***Do you want to Make A Minecraft PE Server For Free?***    
 
-Now we make a new app for you to make the server work!  
+We are developing a cool server app for you. 
 
-Features   
+Cool Features   
 - Many plugins: WorldEdit,Shop,Lands,MultiWorlds,BanItem,...
+- More Commands,More Maps,More Plugins,More MiniGames.
 - One tap to install the plugins from github and poggit.
-- Free the players and plugins.   
+- Build your world online and automatically back up every hour.
+- 30+ players and 100+ plugins.   
 
-Interested? Please contact sky@itoytoy.com
+Interested? Please mail to sky@itoytoy.com
 
 Sky
 MineServer Team   
-2017-12-8
+2017-12-10
