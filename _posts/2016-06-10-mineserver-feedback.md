@@ -6,7 +6,7 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***Make A Minecraft PE Server for yourself and your friends?***    
+***FREE! Make A Minecraft PE Server***    
 
 New Features   
 - Creating a server is super easy. Just take 1 minute.
@@ -20,4 +20,4 @@ Interested? Please mail to sky@itoytoy.com
 
 Sky
 MineServer Team   
-2017-12-10
+2017-12-13
