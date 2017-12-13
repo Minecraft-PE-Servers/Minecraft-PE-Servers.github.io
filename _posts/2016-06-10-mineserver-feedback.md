@@ -8,7 +8,7 @@ question: false
 ---
 ***FREE! Make A Minecraft PE Server***    
 
-New Features   
+The Server Features   
 - Creating a server is super easy. Just take 1 minute.
 - Many plugins: WorldEdit,Shop,Lands,MultiWorlds,BanItem,...
 - More Commands,More Maps,More Plugins,More MiniGames.
