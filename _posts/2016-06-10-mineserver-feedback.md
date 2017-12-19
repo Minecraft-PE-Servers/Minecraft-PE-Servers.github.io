@@ -6,16 +6,17 @@ categories: iniciante
 feedback: true
 question: false
 ---
-***New WorldEdit Feature for Minecraft PE 1.2.7***    
 
-- Many people build the same world online and automatically back up every hour.
-- Build faster and bigger.
-- Copy/Paste command, Used to quickly clone the entire building. 
-- Find/Replace command, Used to replace colors and materials.
-- Stack command, Used to build the wavy shape of the roofing,etc.
+***FREE Hosting A Minecraft PE Server for life***  
+- The server is free for life, just make sure you have a lot of players and are active.
+- Many plugins: WorldEdit,Shop,Lands,MultiWorlds,BanItem,...
+- More Commands,More Maps,More Plugins,More MiniGames.
+- One tap to install all the plugins from github and poggit.
+- Build your world online and automatically back up every hour.
+- 30+ players and 100+ plugins.  
 
-Interested? Please mailto **sky@itoytoy.com** to try this WorldEdit server.
+Interested? Please mail to sky@itoytoy.com . 
 
 Sky
 MineServer Team   
-2017-12-17
+2017-12-19
