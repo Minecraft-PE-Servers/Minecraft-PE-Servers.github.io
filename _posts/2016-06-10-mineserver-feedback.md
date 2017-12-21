@@ -15,7 +15,7 @@ question: false
 - Build your world online and automatically back up every hour.
 - 30+ players and 100+ plugins.  
 
-Interested? (Tap here to discord)[https://discord.gg/6SuK6JR] 
+Interested? [Tap here to discord](https://discord.gg/6SuK6JR)
 
 Sky  
 MineServer Team   
