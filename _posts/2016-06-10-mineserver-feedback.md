@@ -7,8 +7,10 @@ feedback: true
 question: false
 ---
 
-### Donation For MineServer.io Development  
-- We are developing a minecraft-server-maker app.
-- By this app,you can start your own server so you could control everything and make the game experience you want.
-- Choose many plugins/mods for your server from the app.
-- Donation: [_[Servers for Minecraft ($1.99)]_](https://itunes.apple.com/app/id1144129231),thank you:)
+### FREE! Make Minecraft Server for yourself! [App Store Link](https://itunes.apple.com/app/id1332461218)   
+
+- You can create an FREE MCPE server.
+- You can install plugins on the server with this app.
+- One-TAP to run your server.
+
+### FREE! Make Minecraft Server for yourself! [App Store Link](https://itunes.apple.com/app/id1332461218) 
