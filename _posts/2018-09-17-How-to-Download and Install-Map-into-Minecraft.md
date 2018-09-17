@@ -1,7 +1,7 @@
 ---
 layout: apppage
 title:  How To Install
-date:   2018-09-17
+date:   2016-06-30
 categories: iniciante
 feedback: false
 question: false
