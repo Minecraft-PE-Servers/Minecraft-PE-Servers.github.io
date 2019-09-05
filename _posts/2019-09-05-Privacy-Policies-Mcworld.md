@@ -1,11 +1,11 @@
 ---
 layout: apppage
 title:  Privacy Policies
-date:   2017-01-25
+date:   2019-09-05
 categories: iniciante
 ---
 
-This Privacy Policy governs the manner in which Mcworld.co collects, uses, maintains and discloses information collected from users (each, a "User") of the Mcworld.co App (“App”).
+This Privacy Policy governs the manner in which MineServer collects, uses, maintains and discloses information collected from users (each, a "User") of the MineServer App (“App”).
 
 
 Personal identification information
@@ -23,7 +23,7 @@ Our app may use "cookies" to enhance User experience. User's web browser places 
 
 How we use collected information
 -
-Mcworld.co may collect and use Users personal information for the following purposes:
+MineServer may collect and use Users personal information for the following purposes:
 
 To run and operate our app
 -
@@ -41,7 +41,7 @@ We do not sell, trade, or rent Users personal identification information to othe
 
 Changes to this privacy policy
 -
-Mcworld.co has the discretion to update this privacy policy at any time. When we do, we will post a notification on the main page of our app. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
+MineServer has the discretion to update this privacy policy at any time. When we do, we will post a notification on the main page of our app. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
 
 Your acceptance of these terms
 -
@@ -51,4 +51,4 @@ Contacting us
 -
 If you have any questions about this Privacy Policy, the practices of this app, or your dealings with this app, please contact us.
 
-This document was last updated on January 25, 2017
+This document was last updated on September 5, 2019
